@@ -1,0 +1,6 @@
+*.DS_Store
+Thumb.db
+*.mp4
+assets/images/fotos*/
+assets/images/clases/WhatsApp*
+assets/images/taller/WhatsApp*
