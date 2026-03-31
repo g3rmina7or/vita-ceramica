@@ -1,0 +1,64 @@
+/* ============================================
+   VITA CERÁMICA — Estilos principales
+
+   Paleta inspirada en el gradiente del fuego
+   dentro de un horno cerámico: desde las brasas
+   oscuras hasta la llama naranja brillante.
+   ============================================ */
+
+/* ===== 1. VARIABLES ===== */
+:root {
+  /* Paleta oficial Vita Cerámica (brand sheet) */
+  --color-ember: #732B1A;         /* Brasas — marrón oscuro */
+  --color-flame: #BF754B;         /* Terracota — naranja cálido */
+  --color-fire: #E8943A;          /* Fuego vivo — naranja dorado */
+  --color-teal: #3F7373;          /* Teal — verde azulado */
+  --color-sand: #A68F72;          /* Arena — beige dorado */
+  --color-silver: #C7CCD9;        /* Plata — gris claro frío */
+
+  /* Colores funcionales */
+  --color-primary: #BF754B;       /* Terracota como color principal */
+  --color-primary-light: #D4884E;
+  --color-primary-dark: #732B1A;
+
+  /* Fondos — más contraste, tonos tierra */
+  --color-bg: #F5F0EA;            /* Crema cálido con más cuerpo */
+  --color-bg-alt: #E8DFD3;        /* Arena claro — secciones alternas con contraste */
+  --color-surface: #FFFFFF;
+  --color-bg-dark: #732B1A;       /* Sección oscura (marrón brasas) */
+
+  /* Textos */
+  --color-text: #2A1A10;          /* Marrón muy oscuro — máximo contraste */
+  --color-text-light: #5C4535;    /* Marrón medio — más legible */
+  --color-text-muted: #8A7565;
+
+  --color-border: #D4C4B0;
+
+  /* Tipografía (brand sheet) */
+  --font-body: 'Josefin Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Josefin Sans', Georgia, sans-serif;
+  --font-logo: 'Plaster', cursive;  /* Solo para el logotipo "vita" */
+
+  /* Espaciados */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 8rem;
+
+  /* Bordes */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  /* Transiciones */
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --max-width: 1140px;
+
+  /* El gradiente de fuego reutilizable */
+  --gradient-fire: linear-gradient(135deg, var(--color-fire), var(--color-flame), var(--color-ember));
+  --gradient-fire-soft: linear-gradient(135deg, rgba(191,117,75,0.12), rgba(115,43,26,0.08));
+}
